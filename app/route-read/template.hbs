@@ -1,0 +1,38 @@
+<Layout::Column @full={{true}}>
+  <Layout::Row>
+    <Typography::Heading @level={{2}}>
+      {{#if this.user_id}}
+        Study the Greats, {{this.user_id}}
+      {{else}}
+        Study the Greats
+      {{/if}}
+    </Typography::Heading>
+  </Layout::Row>
+
+  <Layout::Row >
+    {{#each this.songs as |song| }}
+      <Layout::Column>
+        <Elements::Card>
+          <Layout::Column>
+            <Typography::Heading @level={{3}}>
+              "{{song.title}}" - {{song.artist}}
+            </Typography::Heading>
+            <Typography::Content>
+              {{song.lyrics}}
+            </Typography::Content>
+          </Layout::Column>
+        </Elements::Card>
+      </Layout::Column>
+    {{/each}}
+  </Layout::Row>
+
+  <Layout::Row>
+    <Controls::Button
+      @onClick={{action this.handleClick "Home"}}
+      @kind="primary"
+      >
+      Click Me
+    </Controls::Button>
+  </Layout::Row>
+
+</Layout::Column>

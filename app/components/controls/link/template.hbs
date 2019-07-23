@@ -1,0 +1,9 @@
+{{#if @route}}
+  <LinkTo @route={{@route}} @query={{@query}}>
+    {{yield}}
+  </LinkTo>
+{{else}}
+  <a href={{@href}}>
+    {{yield}}
+  </a>
+{{/if}}

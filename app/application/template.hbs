@@ -1,0 +1,50 @@
+<section>
+  <Elements::Header>
+    <Controls::Link @route="application" @no-styles={{true}}>
+      <Typography::Heading @level={{1}}>
+        My Demo Application
+      </Typography::Heading>
+    </Controls::Link>
+  </Elements::Header>
+
+  <navbar>
+    <nav>
+      <Controls::Link @route="route-read">
+        <Typography::Text>
+          Read
+        </Typography::Text>
+      </Controls::Link>
+    </nav>
+    <nav>
+      <Controls::Link @route="route-write">
+        <Typography::Text>
+          Write
+        </Typography::Text>
+      </Controls::Link>
+    </nav>
+  </navbar>
+
+  <Layout::Row>
+    <aside>
+      <nav>
+        <Controls::Tab @route="route-read" @query={{hash user_id="123"}}>
+          Link 123
+        </Controls::Tab>
+      </nav>
+      <nav>
+        <Controls::Tab @route="route-read" @query={{hash user_id="234"}}>
+          Link 234
+        </Controls::Tab>
+      </nav>
+      <nav>
+        <Controls::Tab @route="route-read" @query={{hash user_id="345"}}>
+          Link 345
+        </Controls::Tab>
+      </nav>
+    </aside>
+
+    <Layout::Column>
+      {{outlet}}
+    </Layout::Column>
+  </Layout::Row>
+</section>

@@ -1,0 +1,26 @@
+.cards-section {
+  flex-basis: 200px;
+  justify-content: space-evenly;
+}
+
+.cards-section .card {
+  flex-grow: 1;
+}
+
+.cards-section .card > * {
+  justify-content: center;
+  align-items: center;
+}
+
+.layout {
+  justify-content: space-around;
+}
+
+.bottom-right {
+  justify-content: flex-end;
+}
+
+.form-section {
+  max-width: 500px;
+  justify-content: space-around;
+}
