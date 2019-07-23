@@ -1,0 +1,8 @@
+@value base-font, base-line, legible-width from 'ember-sandbox/styles/fonts';
+
+.content {
+  font-size: base-font;
+  line-height: calc(base-line);
+  margin: 0px;
+  max-width: legible-width;
+}
