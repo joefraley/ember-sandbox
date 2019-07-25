@@ -1,7 +1,7 @@
-@value legible-width from 'ember-sandbox/styles/fonts';
-@value padding-md from 'ember-sandbox/styles/dimensions';
+@import 'ember-sandbox/styles/_typography';
+@import 'ember-sandbox/styles/_dimensions';
 
-.card {
+& {
   background: #fff;
   border-radius: .28571429rem;
   border: none;
@@ -10,8 +10,8 @@
   flex-direction: column;
   max-width: 100%;
   min-height: 0;
-  padding: padding-md;
+  padding: $padding-lg;
   position: relative;
   transition: box-shadow .1s ease,transform .1s ease;
-  width: calc(legible-width * 0.6);
+  width: calc(#{$legible-width} * 0.6);
 }

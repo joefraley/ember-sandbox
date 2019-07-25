@@ -1,3 +1,5 @@
+@import 'ember-sandbox/styles/_dimensions';
+
 .cards-section {
   flex-basis: 200px;
   justify-content: space-evenly;
@@ -6,7 +8,7 @@
 
 .cards-section .card {
   flex-grow: 1;
-  margin: 20px;
+  margin: $margin-lg;
 }
 
 .cards-section .card > * {
