@@ -1,13 +1,13 @@
-<section>
-  <Elements::Header>
-    <Controls::Link @route="application" @no-styles={{true}}>
+<section local-class="app">
+  <Elements::Header local-class="header">
+    <Controls::Link @route="application" @no-styles={{true}} local-class="link">
       <Typography::Heading @level={{1}}>
         My Demo Application
       </Typography::Heading>
     </Controls::Link>
   </Elements::Header>
 
-  <navbar>
+  <navbar local-class="navbar">
     <nav>
       <Controls::Link @route="route-read">
         <Typography::Text>
@@ -24,8 +24,8 @@
     </nav>
   </navbar>
 
-  <Layout::Row>
-    <aside>
+  <Layout::Row @full={{true}} local-class="content-container">
+    <aside local-class="sidebar">
       <nav>
         <Controls::Tab @route="route-read" @query={{hash user_id="123"}}>
           Link 123
@@ -43,7 +43,7 @@
       </nav>
     </aside>
 
-    <Layout::Column>
+    <Layout::Column @full={{true}} local-class="main">
       {{outlet}}
     </Layout::Column>
   </Layout::Row>
