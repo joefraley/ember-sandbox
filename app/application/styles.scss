@@ -1,0 +1,47 @@
+& {
+  align-items: stretch;
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  justify-content: stretch;
+}
+
+.navbar {
+  border: 1px solid lightgray;
+  display: flex;
+  padding: 1rem;
+}
+
+.navbar nav {
+  padding: 1rem;
+}
+
+.sidebar nav {
+  padding: 1rem;
+}
+
+.sidebar {
+  background: lightskyblue;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-basis: 200px;
+  flex-flow: column;
+  min-width: 200px;
+  padding: 1rem;
+}
+
+
+
+.main {
+  padding: 1rem;
+  overflow: scroll;
+}
+
+.content-container {
+  flex-shrink: 1;
+  overflow-y: auto;
+}
+
+.header .link {
+  color: white;
+}

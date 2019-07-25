@@ -4,5 +4,6 @@ export default Component.extend({
   onClick: null,
   href: null,
   route: null,
-  query: null
+  query: null,
+  noStyles: false,
 });
