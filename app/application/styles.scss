@@ -1,17 +1,25 @@
-@value padding-md, padding-lg from 'ember-sandbox/styles/dimensions';
+@import 'ember-sandbox/styles/_dimensions';
+
+& {
+  align-items: stretch;
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  justify-content: stretch;
+}
 
 .navbar {
   border: 1px solid lightgray;
   display: flex;
-  padding: padding-md;
+  padding: $padding-md;
 }
 
 .navbar nav {
-  padding: padding-md;
+  padding: $padding-md;
 }
 
 .sidebar nav {
-  padding: padding-md;
+  padding: $padding-md;
 }
 
 .sidebar {
@@ -21,19 +29,13 @@
   flex-basis: 200px;
   flex-flow: column;
   min-width: 200px;
-  padding: padding-lg;
+  padding: $padding-lg;
 }
 
-.app {
-  align-items: stretch;
-  display: flex;
-  flex-flow: column;
-  height: 100vh;
-  justify-content: stretch;
-}
+
 
 .main {
-  padding: padding-md;
+  padding: $padding-md;
   overflow: scroll;
 }
 

@@ -1,7 +1,7 @@
-.row {
+& {
   display: flex;
 }
 
-.full {
+&.full {
   flex-grow: 1;
 }

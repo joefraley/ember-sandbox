@@ -1,6 +1,0 @@
-@value base-font, base-line from 'ember-sandbox/styles/fonts';
-
-.text {
-  font-size: base-font;
-  line-height: base-line;
-}

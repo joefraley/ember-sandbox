@@ -1,4 +1,4 @@
-.button {
+& {
   background: #e0e1e2 none;
   border-radius: .28571429rem;
   border: none;
@@ -23,47 +23,47 @@
   vertical-align: baseline;
 }
 
-.primary {
+&.primary {
   background-color: #2185d0;
   background-image: none;
   box-shadow: 0 0 0 0 rgba(34,36,38,.15) inset;
   color: #fff;
   text-shadow: none;
 }
-.primary:hover {
+&.primary:hover {
   background-color: #1678c2;
   color: #fff;
   text-shadow: none;
 }
-.primary:active {
+&.primary:active {
   background-color: #1a69a4;
   color: #fff;
   text-shadow: none;
 }
-.primary:focus {
+&.primary:focus {
   background-color: #0d71bb;
   color: #fff;
   text-shadow: none;
 }
 
-.secondary {
+&.secondary {
   background-color: #1b1c1d;
   background-image: none;
   box-shadow: 0 0 0 0 rgba(34,36,38,.15) inset;
   color: #fff;
   text-shadow: none;
 }
-.secondary:hover {
+&.secondary:hover {
   background-color: #27292a;
   color: #fff;
   text-shadow: none;
 }
-.secondary:active {
+&.secondary:active {
   background-color: #343637;
   color: #fff;
   text-shadow: none;
 }
-.secondary:focus {
+&.secondary:focus {
   background-color: #2e3032;
   color: #fff;
   text-shadow: none;

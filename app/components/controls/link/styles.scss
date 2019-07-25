@@ -1,4 +1,4 @@
-.link {
+& {
   box-sizing: border-box;
   color: rgb(125, 76, 219);
   cursor: pointer;
@@ -11,11 +11,11 @@
   text-decoration: none;
 }
 
-.link:hover {
+&:hover {
   text-decoration: underline;
 }
 
-.link.no-styles {
+&.no-styles {
   color: inherit;
   font-weight: inherit;
   outline: inherit;

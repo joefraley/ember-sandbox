@@ -1,8 +1,8 @@
-.column {
+& {
   display: flex;
   flex-flow: column;
 }
 
-.full {
+&.full {
   flex-grow: 1;
 }

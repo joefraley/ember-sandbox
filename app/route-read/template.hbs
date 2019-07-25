@@ -1,4 +1,4 @@
-<Layout::Column local-class="layout" @full={{true}}>
+<Layout::Column class="layout" @full={{true}}>
   <Layout::Row>
     <Typography::Heading @level={{2}}>
       {{#if this.user_id}}
@@ -9,10 +9,10 @@
     </Typography::Heading>
   </Layout::Row>
 
-  <Layout::Row local-class="cards-section">
+  <Layout::Row class="cards-section">
     {{#each this.songs as |song| }}
       <Layout::Column>
-        <Elements::Card local-class="card">
+        <Elements::Card class="card">
           <Layout::Column>
             <Typography::Heading @level={{3}}>
               "{{song.title}}" - {{song.artist}}
@@ -26,10 +26,16 @@
     {{/each}}
   </Layout::Row>
 
-  <Layout::Row local-class="bottom-right">
+  <Layout::Row class="bottom-right">
     <Controls::Button
       @onClick={{action this.handleClick "Home"}}
       @kind="primary"
+      >
+      Click Me
+    </Controls::Button>
+    <Controls::Button
+      @onClick={{action this.handleClick "Home"}}
+      @kind="secondary"
       >
       Click Me
     </Controls::Button>
