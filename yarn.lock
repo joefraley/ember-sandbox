@@ -4303,6 +4303,13 @@ ember-source@~3.10.0:
     jquery "^3.3.1"
     resolve "^1.10.0"
 
+ember-styled-components@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/ember-styled-components/-/ember-styled-components-0.0.5.tgz#481455df2a29eaf743faec9fead392ddf4a093b3"
+  integrity sha512-9uQeoordz6OgWaagDY86ra+Lblb+0YrzX97BPqj7W6HPWNS7U8NJ37wAXHSJwsJ6pnZilXoXeNRwUJSs5HxIVg==
+  dependencies:
+    ember-cli-babel "^6.6.0"
+
 ember-template-lint@^1.1.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-1.4.0.tgz#529785326b59a6b4be1165752d6928fd1ada1efa"
