@@ -1,8 +1,6 @@
-@import "ember-sandbox/styles/_typography";
-
 & {
-  font-size: $base-font;
-  line-height: $base-line;
+  font-size: 1.4rem;
+  line-height: calc(1.4rem * 1.5);
   margin: 0px;
-  max-width: $legible-width;
+  max-width: 42rem;
 }

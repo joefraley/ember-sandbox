@@ -1,6 +1,3 @@
-@import "ember-sandbox/styles/_dimensions";
-@import "ember-sandbox/styles/_typography";
-
 & {
   align-items: stretch;
   display: flex;
@@ -12,15 +9,15 @@
 .navbar {
   border: 1px solid lightgray;
   display: flex;
-  padding: $padding-md;
+  padding: 1rem;
 }
 
 .navbar nav {
-  padding: $padding-md;
+  padding: 1rem;
 }
 
 .sidebar nav {
-  padding: $padding-md;
+  padding: 1rem;
 }
 
 .sidebar {
@@ -30,13 +27,13 @@
   flex-basis: 200px;
   flex-flow: column;
   min-width: 200px;
-  padding: $padding-md;
+  padding: 1rem;
 }
 
 
 
 .main {
-  padding: $padding-md;
+  padding: 1rem;
   overflow: scroll;
 }
 
