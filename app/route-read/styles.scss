@@ -1,0 +1,25 @@
+@import "ember-sandbox/styles/_dimensions";
+
+.cards-section {
+  flex-basis: 200px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.cards-section .card {
+  flex-grow: 1;
+  margin: $margin-md;
+}
+
+.cards-section .card > * {
+  justify-content: center;
+  align-items: center;
+}
+
+.layout {
+  justify-content: space-between;
+}
+
+.bottom-right {
+  justify-content: flex-end;
+}

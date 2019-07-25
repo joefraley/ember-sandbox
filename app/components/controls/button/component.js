@@ -5,4 +5,5 @@ export default Component.extend({
   kind: null,
   tagName: 'button',
   attributeBindings: ['onClick:onclick'],
+  classNameBindings: ['kind']
 });

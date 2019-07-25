@@ -1,0 +1,6 @@
+@import "ember-sandbox/styles/_typography";
+
+& {
+  font-size: $base-font;
+  line-height: $base-line;
+}
