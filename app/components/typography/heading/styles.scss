@@ -1,0 +1,21 @@
+& {
+  font-weight: 600;
+  margin: 0px;
+  display: flex;
+}
+
+&.heading {
+  font-size: calc(1.4rem * 3);
+  line-height: calc(calc(1.4rem * 1.5) * 2);
+  max-width: calc(42rem * 3);
+}
+&.heading {
+  font-size: calc(1.4rem * 2.5);
+  line-height: calc(calc(1.4rem * 1.5) * 1.7);
+  max-width: calc(42rem * 2);
+}
+&.heading {
+  font-size: calc(1.4rem * 1.5);
+  line-height: calc(calc(1.4rem * 1.5) * 1.7);
+  max-width: calc(42rem * 2);
+}

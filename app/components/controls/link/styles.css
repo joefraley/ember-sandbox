@@ -1,0 +1,23 @@
+& {
+  box-sizing: border-box;
+  color: rgb(125, 76, 219);
+  cursor: pointer;
+  display: flex;
+  flex-grow: 1;
+  font-size: inherit;
+  font-weight: 600;
+  line-height: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+&:hover {
+  text-decoration: underline;
+}
+
+&.no-styles {
+  color: inherit;
+  font-weight: inherit;
+  outline: inherit;
+  text-decoration: none;
+}

@@ -1,9 +1,9 @@
 {{#if @route}}
-  <LinkTo @route={{@route}} @query={{@query}}>
+  <LinkTo class="{{styleNamespace}} {{if @noStyles "no-styles"}}" @route={{@route}} @query={{@query}}>
     {{yield}}
   </LinkTo>
 {{else}}
-  <a href={{@href}}>
+  <a class="{{styleNamespace}} {{if @noStyles "no-styles"}}" href={{@href}}>
     {{yield}}
   </a>
 {{/if}}
